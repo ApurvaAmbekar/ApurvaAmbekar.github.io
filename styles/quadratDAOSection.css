@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.quadratDAOSection{
+    /* height: 150vh; */
+    background-color: rgb(14, 14, 14);
+    font-family: "Sf pro display", sans-serif;
+    padding-top: 50px;
+
+}
+
+.quadratDAO{
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+.quadratDAOLeftside{
+    width: 50%;
+
+}
+.quadratDAOLeftside h1{
+    font-size: 500%;
+}
+.quadratDAORightside{
+    width: 50%;
+}
+.quadratDAODetails h2{
+    margin: 5% 0;
+}
+
+.DAOendingText{
+    margin: 5% 0;
+
+}
+
+
+/* three elements starts */
+.threeElements{
+    height: 20%;
+    width: 100%;
+    margin: 5% auto;
+    background-color: rgb(15, 13, 13);
+    display: flex;
+    gap: 20px;
+}
+.readExploreJoin{
+    border: 2px solid rgb(158, 157, 157);
+    height: 100%;
+    width: 33%;
+    text-align: center;
+    padding: 10% 0;
+    border-radius: 10px;
+
+}
+.readExploreJoin:hover{
+    cursor:pointer;
+    border: 2px solid #53baff;
+    background-color: rgb(75, 73, 73);
+    transition: color 300ms ease-in-out;
+}
+.readExploreJoin p{
+    font-size: larger;
+}
+
+.readExploreJoin p:hover{
+    color: #53baff;
+}
+/* three elements ends */
+
+
+/* ending part starts */
+
+.endingPart{
+    height: 10vh;
+    width: 100%;
+    margin: 0 auto;
+    
+}
+.endingPartDetails{
+    display: flex;
+    justify-content: space-between;
+}
+.endingPartDetails p{
+    color:#9d9d9e;
+    
+}
+.plasma:hover{
+    color : #fff;
+    cursor: pointer;
+}

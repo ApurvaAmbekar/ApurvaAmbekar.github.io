@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.professionalToolsSection{
+    width: 100%;
+    /* background-color: black; */
+    font-family: "Sf pro display", sans-serif;
+    /* border: 2px solid red; */
+}
+.professionalTools{
+    /* margin-top: 5%; */
+    /* border: 1px solid peru; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin: 10% 0;
+}
+
+.headingPT{
+    /* height: 50vh; */
+    /* border: 2px solid yellow; */
+    color: #fff;
+    /* width: 30%; */
+    font-size: 350%;
+}
+.headingPT span{
+    text-shadow: 2px 2px 1px #53baff;
+}
+.headingPT span:hover{
+    color: #64aef3;
+    cursor: pointer;
+    text-shadow: none;
+    transition: color 300ms ease, text-shadow 300ms ease;
+
+}
+
+.pTDescription{
+    /* height: 50vh; */
+    color: #fff;
+    line-height: 24px;
+    font-optical-sizing: none;
+    text-align: justify;
+}
+
+.listOfFeatures{
+    /* border: 2px solid red; */
+    margin: auto;
+    margin-top: -15%;
+    width: 100%;
+    display: flex;
+    font-size: 25px;
+    color: #fff;
+}
+
+.feature h3{
+    margin-bottom: 5%;
+}
+.feature p{
+    font-size: 20px;
+}

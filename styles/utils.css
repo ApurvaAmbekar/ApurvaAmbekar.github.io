@@ -1,0 +1,28 @@
+.d-block {
+    display: block;
+    margin: 5px 0px;
+}
+
+.h-center-for-abs {
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+.left-section {
+    width: 50%;
+    height: 500px;
+}
+
+.right-section {
+    display: block;
+    width: 50%;
+    
+    height: 500px;
+}
+
+.fit-image-to-parent {
+    display: block;
+    height: 100%;
+    width: 100%;
+}

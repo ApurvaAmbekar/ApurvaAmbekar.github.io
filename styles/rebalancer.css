@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.rebalancerSection{
+    width: 100%;
+    /* background-color: rgba(0, 0, 0, 0.9); */
+    font-family: "Sf pro display", sans-serif;
+    /* border: 2px solid red; */
+    color: #fff;
+    /* padding: 0 18%; */
+    display: flex;
+    gap: 5%;
+    position: relative;
+    margin-bottom: 250px;
+    height: 100vh;
+    /* overflow: hidden; */
+}
+.rebalancerLeftSide{
+    position: sticky;
+    bottom: 0;
+    height: 50%;
+    align-self: flex-end;
+    /* width: 70%; */
+}
+
+.rebalancerLeftSide h1{
+    padding-top: 20px;
+    font-size: 420%;
+}
+.rebalancerLeftSide span{
+    text-shadow: 2px 2px 1px #53baff;
+
+}
+.rebalancerLeftSide span:hover{
+    color: #64aef3;
+    cursor: pointer;
+    text-shadow: none;
+    transition: color 300ms ease, text-shadow 300ms ease;
+}
+
+.rebalancerLeftSide p{
+    margin-top: 10%;
+}
+
+.rebalancerRightSide {
+    height: 100%;
+    /* align-self: flex-start; */
+}
+
+.rebalancerRightSide image{
+    
+}
+
+.rebalancerRightSide::after{
+    will-change: transform;
+    transform: translate3d(0px, -499.147px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    transform-style: preserve-3d;
+}
+

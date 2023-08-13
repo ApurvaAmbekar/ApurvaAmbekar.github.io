@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.createYourStrategySection{
+    margin-top: 250px;
+    width: 100%;
+    /* background-color: black; */
+    font-family: "Sf pro display", sans-serif;
+    /* border: 1px solid peru; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+
+.headingCYS{
+    
+    /* border: 2px solid yellow; */
+    color: #fff;
+    
+    font-size: 350%;
+}
+.headingCYS span{
+    text-shadow: 2px 2px 1px #53baff;
+}
+.headingCYS span:hover{
+    color: #64aef3;
+    cursor: pointer;
+    text-shadow: none;
+    transition: color 300ms ease, text-shadow 300ms ease;
+
+}

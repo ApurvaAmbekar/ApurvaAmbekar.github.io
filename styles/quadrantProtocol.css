@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.quadrantProtocolSection{
+    /* height: 130vh; */
+    width: 100%;
+    /* border: 2px solid red; */
+    /* background-color: rgba(0, 0, 0, 0.9); */
+    font-family: "Sf pro display", sans-serif;
+    /* border: 2px solid red; */
+    color: #fff;
+    padding: 10% 0;
+    
+}
+
+.HeadingQSV{
+    /* height: 50vh; */
+    /* border: 2px solid yellow; */
+    color: #fff;
+    width: 80%;
+    font-size: 250%;
+}
+.HeadingQSV span{
+    text-shadow: 2px 2px 1px #53baff;
+}
+.HeadingQSV span:hover{
+    color: #64aef3;
+    cursor: pointer;
+    text-shadow: none;
+    transition: color 300ms ease, text-shadow 300ms ease;
+
+}
+.quadrantProtocolSection h1{
+    font-size: 500%;
+    text-align: left;
+    
+}
+.quadrantProtocolSection p{
+    font-size: 20px;
+    margin: 5% 0;
+    line-height: 24px ;
+}
+
+
+.quadrat-flow {
+    height: 600px;
+    /* border: 2px solid #fff; */
+}

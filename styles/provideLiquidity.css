@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.provideLiquiditySection{
+    position: relative;
+    padding-top: 250px;
+    width: 100%;
+    font-family: "Sf pro display", sans-serif;
+    /* border: 1px solid peru; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+
+.headingPL{
+    /* width: 35%;
+    border: 2px solid #fff; */
+    color: #fff;
+    font-size: 350%;
+    letter-spacing: 2px;
+}
+.headingPL span{
+    text-shadow: 2px 2px 1px #53baff;
+}
+.headingPL span:hover{
+    color: #64aef3;
+    cursor: pointer;
+    text-shadow: none;
+    transition: color 300ms ease, text-shadow 300ms ease;
+
+}
+.pl{
+    /* width: 35%;
+    border: 2px solid #fff; */
+    /* border: 2px solid yellow; */
+}
+.pl img {
+    /* display: block;
+    height: 100%;
+    width: 100%; */
+}
